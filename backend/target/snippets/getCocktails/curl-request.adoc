@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:8080/api/barmen?userLogin=tester' -i -X GET
-----
