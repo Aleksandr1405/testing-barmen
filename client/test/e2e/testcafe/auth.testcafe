@@ -1,0 +1,382 @@
+{
+    "fixtures": [
+        {
+            "name": "auth",
+            "pageUrl": "http://localhost:3000/authorize",
+            "tests": [
+                {
+                    "name": "Greet",
+                    "commands": [
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('main .App-form_input')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main .App-form_input')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main [name=\"login\"][data-testid=\"auth-input\"]')"
+                                        },
+                                        "ruleType": "$attr$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main div div form input')"
+                                        },
+                                        "ruleType": "$dom$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#authorization-login')"
+                                        },
+                                        "ruleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root .App-form_input')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root [name=\"login\"][data-testid=\"auth-input\"]')"
+                                        },
+                                        "ruleType": "$attr$",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form_input')"
+                                        },
+                                        "ruleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form .App-form_input')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[name=\"login\"][data-testid=\"auth-input\"]')"
+                                        },
+                                        "ruleType": "$attr$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div div main div div form input')"
+                                        },
+                                        "ruleType": "$dom$"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 98,
+                                "offsetY": 18
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "0"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('main .App-form_input')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main .App-form_input')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main [name=\"login\"][data-testid=\"auth-input\"]')"
+                                        },
+                                        "ruleType": "$attr$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main div div form input')"
+                                        },
+                                        "ruleType": "$dom$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#authorization-login')"
+                                        },
+                                        "ruleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root .App-form_input')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root [name=\"login\"][data-testid=\"auth-input\"]')"
+                                        },
+                                        "ruleType": "$attr$",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form_input')"
+                                        },
+                                        "ruleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form .App-form_input')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('[name=\"login\"][data-testid=\"auth-input\"]')"
+                                        },
+                                        "ruleType": "$attr$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div div main div div form input')"
+                                        },
+                                        "ruleType": "$dom$"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 154,
+                                "offsetY": 18
+                            },
+                            "text": "vika2506",
+                            "options": {},
+                            "type": "type-text",
+                            "callsite": "1"
+                        },
+                        {
+                            "selector": {
+                                "type": "js-expr",
+                                "value": "Selector('main button').withText('ВОЙТИ')"
+                            },
+                            "studio": {
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main button').withText('ВОЙТИ')"
+                                        },
+                                        "ruleType": "$text$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main .App-form_submit-button')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main div div form button')"
+                                        },
+                                        "ruleType": "$dom$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#authorization-button')"
+                                        },
+                                        "ruleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root button').withText('ВОЙТИ')"
+                                        },
+                                        "ruleType": "$text$",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root .App-form_submit-button')"
+                                        },
+                                        "ruleType": "class",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('button').withText('ВОЙТИ')"
+                                        },
+                                        "ruleType": "$text$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form_submit-button')"
+                                        },
+                                        "ruleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form button').withText('ВОЙТИ')"
+                                        },
+                                        "ruleType": "$text$",
+                                        "ancestorRuleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div div main div div form button')"
+                                        },
+                                        "ruleType": "$dom$"
+                                    }
+                                ],
+                                "useOffsets": false,
+                                "offsetX": 30,
+                                "offsetY": 26
+                            },
+                            "options": {},
+                            "type": "click",
+                            "callsite": "2"
+                        },
+                        {
+                            "type": "assertion",
+                            "studio": {
+                                "assertionMode": "checkElement",
+                                "selectors": [
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main div').withText('Привет, Вика Черноокая!').nth(2).innerText"
+                                        },
+                                        "ruleType": "$text$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('main div div form p div').innerText"
+                                        },
+                                        "ruleType": "$dom$",
+                                        "ancestorRuleType": "$tagName$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#greeting').innerText"
+                                        },
+                                        "ruleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root div').withText('Привет, Вика Черноокая!').nth(3).innerText"
+                                        },
+                                        "ruleType": "$text$",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('#root div main div div form p div').innerText"
+                                        },
+                                        "ruleType": "$dom$",
+                                        "ancestorRuleType": "id"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div').withText('Привет, Вика Черноокая!').nth(4).innerText"
+                                        },
+                                        "ruleType": "$text$"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form_name div').withText('Привет, Вика Черноокая!').innerText"
+                                        },
+                                        "ruleType": "$text$",
+                                        "ancestorRuleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('.App-form_name div').innerText"
+                                        },
+                                        "ruleType": "$dom$",
+                                        "ancestorRuleType": "class"
+                                    },
+                                    {
+                                        "rawSelector": {
+                                            "type": "js-expr",
+                                            "value": "Selector('div div main div div form p div').innerText"
+                                        },
+                                        "ruleType": "$dom$"
+                                    }
+                                ],
+                                "selectorType": "CSS Selector",
+                                "selectorPostfix": ".innerText"
+                            },
+                            "callsite": "3",
+                            "assertionType": "eql",
+                            "actual": {
+                                "type": "js-expr",
+                                "value": "Selector('main div').withText('Привет, Вика Черноокая!').nth(2).innerText"
+                            },
+                            "options": {},
+                            "expected": {
+                                "type": "js-expr",
+                                "value": "\"Привет, Вика Черноокая!\""
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

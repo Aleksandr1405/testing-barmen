@@ -1,0 +1,89 @@
+.CocktailInfo {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 50px auto 0;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.CocktailInfoHighlight {
+    background: #9ACD32;
+    width: 90%;
+    margin: 50px auto 0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.cocktail-name {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #ADFF2F;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.cocktail-complexity {
+    position: relative;
+    background: #006400;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cocktail-compound {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cocktail-description {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    white-space:  pre-wrap;
+}
+
+.done {
+    background: #FFDEAD;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}

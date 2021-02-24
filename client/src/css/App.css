@@ -1,0 +1,131 @@
+.App {
+    min-height: 100vh;
+    width: 100%;
+    background: no-repeat fixed url("../data/sunset.jpg");
+    display: grid;
+    grid-template-rows: 80px 1fr 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App-text {
+    max-width: 100%;
+    min-height: calc(100vh - 160px);
+    height: calc(100vh - 160px);
+    top: -80px;
+    text-align: center;
+    color: #1E0005;
+}
+
+.App-text_item {
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #FFDEAD;
+    font-weight: 500;
+    background: #1E0005;
+    opacity: 0.6;
+}
+
+.App-link {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+.App-link-register {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 100%;
+}
+
+.App-button {
+    background: #A0522D;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.App-rating {
+    background: #FFDEAD;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 100px;
+    line-height: 95px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.home-greeting {
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #FFDEAD;
+    font-weight: 500;
+    background: #1E0005;
+    opacity: 0.6;
+}

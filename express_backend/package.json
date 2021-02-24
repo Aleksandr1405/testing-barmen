@@ -1,0 +1,25 @@
+{
+  "name": "testing_course",
+  "version": "1.0.0",
+  "description": "app with autorization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktoria2506/testing_course.git"
+  },
+  "author": "Viktoria Chernookaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktoria2506/testing_course/issues"
+  },
+  "homepage": "https://github.com/viktoria2506/testing_course#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

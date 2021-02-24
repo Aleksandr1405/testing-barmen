@@ -1,0 +1,43 @@
+.barmen {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.barmen-points {
+    display: flex;
+    flex-direction: column;
+}
+
+.barmen-points_item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e5f4ff;
+    margin: 3px;
+}
+
+.barmen-points_item:hover {
+    background-color: #A5B4BF;
+}
+
+.barmen-form_wrapper {
+    display: flex;
+    height: 50%;
+}
+.barmen-form {
+    width: 90%;
+    height: 100%;
+    justify-content: center;
+}
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
