@@ -45,7 +45,7 @@ Advanced
 - [x] взаимодействие сервиса и Frontend приложения
 - [x] тесты на авторизацию
 - [ ] Spring Test Configuration, которые можно переключать при помощи флага при запуске тестов
-- [x] генерация тестовой документации через Asci Doctor(Spring Rest Docs)
+- [ ] генерация тестовой документации через Asci Doctor(Spring Rest Docs)
 
 Bonus
 - [ ] функциональность с Kafka/RabbitMQ streams
@@ -88,9 +88,7 @@ Bonus
 
 ## 6.Performance
 Main
-- [x] пройти воркшоп
-
-  https://gitlab.com/performance_workshop
+- [ ] пройти воркшоп
 
 Advanced
 - [ ] настроить CI с Github actions
